@@ -1,0 +1,14 @@
+# R >= 4.3 (we tested with 4.3.3 from conda-forge)
+# Bioconductor packages required by scripts/download_one_cohort.R and
+# scripts/preprocess_cohort.R:
+
+bioconductor-tcgabiolinks      >= 2.30
+bioconductor-summarizedexperiment
+bioconductor-sesame            >= 1.20
+bioconductor-sesamedata
+bioconductor-illuminahumanmethylation450kmanifest
+bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
+
+# CRAN packages (usually installed automatically by Bioconductor):
+dplyr
+data.table

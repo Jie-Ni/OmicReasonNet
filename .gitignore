@@ -1,0 +1,43 @@
+# Generated artefacts
+results/
+cache/
+figures/*.pdf
+figures/*.png
+*_extract/
+_check*.png
+_p[0-9]*.png
+_cl_p*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+**/_gdc/
+
+# Heavy intermediate files (downloads / RDS)
+*.rds
+*.gz
+*.tar
+*.zip
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Manuscript private files (if accidentally inside the repo)
+manuscript/
+*.tex.bak
+*.aux
+*.log
+*.bbl
+*.blg
