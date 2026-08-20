@@ -1,9 +1,10 @@
 # OmicReasonNet
 
-**OmicReasonNet: Integrating topological and semantic priors for robust cancer subtyping from multi-omics data.**
+**OmicReasonNet: Biomedical Text-Augmented Dual-Graph Fusion for Multi-Omics Classification.**
 
-This repository contains the full reference implementation accompanying
-the manuscript submitted to *Briefings in Bioinformatics*.
+This repository contains the reference implementation associated with the
+OmicReasonNet manuscript, currently being prepared for
+*IEEE Transactions on Computational Biology and Bioinformatics (TCBB)*.
 OmicReasonNet (ORN) is a dual-prior graph network that couples a
 Layer-Attention Graph Convolutional Network (LAGCN) over a heterogeneous
 biological topology with a PubMedBERT-derived semantic prior, fuses the
@@ -139,9 +140,10 @@ cohorts; `requirements_R.txt` lists the specific Bioconductor packages.
 If you use this code, please cite:
 
 > Ni J., Wei Z., Zhang X., Li M., Xie Z., Liu Y., Jatowt A.
-> *OmicReasonNet: Integrating topological and semantic priors for
-> robust cancer subtyping from multi-omics data.*
-> Submitted to **Briefings in Bioinformatics**, 2026.
+> *OmicReasonNet: Biomedical Text-Augmented Dual-Graph Fusion for
+> Multi-Omics Classification.*
+> Manuscript in preparation for **IEEE Transactions on Computational Biology
+> and Bioinformatics (TCBB)**, 2026.
 
 ## License
 
